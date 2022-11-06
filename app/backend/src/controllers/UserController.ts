@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import CustomError from '../Error/CustomError';
 import { IUserService } from '../interfaces/UserInterfaces';
 
-export default class UserLoginController {
+export default class UserController {
   constructor(private userService : IUserService) {}
 
   public async loginUser(
