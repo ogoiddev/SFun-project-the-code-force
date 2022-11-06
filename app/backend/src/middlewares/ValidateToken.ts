@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import CustomError from '../Error/CustomError';
-import TokenService from '../services/tokenService';
+import TokenService from '../services/TokenService';
 
 export default async function ValidateToken(
   req: Request,
