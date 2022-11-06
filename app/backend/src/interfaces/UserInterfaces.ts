@@ -5,6 +5,11 @@ interface ILoginRequest {
   password: string
 }
 
+interface IUserData extends ILoginRequest {
+  username: string
+  email: string
+}
+
 interface IUserLoginResponse {
   username: string
   token: string
@@ -19,4 +24,5 @@ export {
   ILoginRequest,
   IUserService,
   IUserLoginResponse,
+  IUserData,
 };
