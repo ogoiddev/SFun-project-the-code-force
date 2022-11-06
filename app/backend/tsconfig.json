@@ -16,7 +16,8 @@
     "skipLibCheck": true,
     "paths": {
       "*": ["node_modules/*"]
-    }
+    },
+    "types": ["jest", "node"]
   },
   "include": ["src/**/*"],
   "exclude": ["src/tests"]
