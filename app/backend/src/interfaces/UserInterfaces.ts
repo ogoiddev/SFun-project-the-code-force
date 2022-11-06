@@ -5,7 +5,8 @@ interface ILoginRequest {
   password: string
 }
 
-interface IUserData extends ILoginRequest {
+interface IUserData {
+  cpf: string
   username: string
   email: string
 }
