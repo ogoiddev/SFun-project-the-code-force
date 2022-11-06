@@ -22,7 +22,7 @@ User.init({
     primaryKey: true,
   },
   cpf: {
-    type: INTEGER,
+    type: STRING,
     allowNull: false,
   },
   email: {
