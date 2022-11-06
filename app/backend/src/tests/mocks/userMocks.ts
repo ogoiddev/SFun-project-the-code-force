@@ -17,7 +17,7 @@ const userLoginResponse: IUserLoginResponse = {
 
 const userLoginRequest: ILoginRequest = {
   cpf: '12345678900',
-  password: "secret_admin",
+  password: "secret_user",
 }
 
 export {
